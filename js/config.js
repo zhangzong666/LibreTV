@@ -22,23 +22,11 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    91md: {
-        api: 'https://91md.me/api.php/provide/vod',
-        name: '🔞麻豆视频',
-        detail: 'https://91md.me',
-        adult: true
-    },
-    fhapi9: {
-        api: 'http://fhapi9.com/api.php/provide/vod',
-        name: '🔞番号资源',
-        detail: 'http://fhapi9.com',
-        adult: true
-    },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
         adult: true
-    },
+    }
     //ARCHIVE https://telegra.ph/APIs-08-12
 };
 
