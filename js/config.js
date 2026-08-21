@@ -107,13 +107,13 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod',
         name: '量子资源站'
     },
-    91md: {
+    mdzy: {
         api: 'https://91md.me/api.php/provide/vod',
         name: '🔞麻豆视频',
         detail: 'https://91md.me',
         adult: true
     },
-    fhapi9: {
+    fhzy: {
         api: 'http://fhapi9.com/api.php/provide/vod',
         name: '🔞番号资源',
         detail: 'http://fhapi9.com',
