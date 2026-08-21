@@ -114,6 +114,12 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
+    fhapi9: {
+        api: 'http://fhapi9.com/api.php/provide/vod',
+        name: '🔞番号资源',
+        detail: 'http://fhapi9.com',
+        adult: true
+    },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
