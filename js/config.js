@@ -23,7 +23,7 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
     1080zyk4: {
-        api: 'https://api.yzzy-api.com/inc/apijson.php',',
+        api: 'https://api.yzzy-api.com/inc/apijson.php',
         name: '🎬优质资源',
     },
     xgzy: {
