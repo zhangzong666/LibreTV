@@ -533,7 +533,9 @@ function renderDoubanCards(data, container) {
             const originalCoverUrl = item.cover;
             
             // 2. 也准备代理URL作为备选
-            const proxiedCoverUrl = PROXY_URL + encodeURIComponent(originalCoverUrl);
+            //const proxiedCoverUrl = PROXY_URL + encodeURIComponent(originalCoverUrl);
+            //直接替换豆瓣域名走第三方反代
+            const proxiedCoverUrl = originalCoverUrl.replace('img3.doubanio.com','img.doubanio.com.cmliussss.net');
             
             // 为不同设备优化卡片布局
             card.innerHTML = `
