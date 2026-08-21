@@ -22,6 +22,16 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    1080zyk4: {
+        api: 'https://api.yzzy-api.com/inc/apijson.php',
+        name: '🎬优质资源',
+        detail: 'https://1080zyk4.com/', 
+    },
+    xgzy: {
+        api: 'https://caiji.xgzyapi.com/api.php/provide/vod',
+        name: '🎬西瓜资源',
+        detail: 'https://xgzy.tv/', 
+    },
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
@@ -48,11 +58,6 @@ const API_SITES = {
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
     },
-    heimuer: {
-        api: 'https://json.heimuer.xyz/api.php/provide/vod',
-        name: '黑木耳',
-        detail: 'https://heimuer.tv', 
-    },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
@@ -60,14 +65,6 @@ const API_SITES = {
     iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi资源',
-    },
-    wolong: {
-        api: 'https://wolongzyw.com/api.php/provide/vod',
-        name: '卧龙资源',
-    }, 
-    hwba: {
-        api: 'https://cjhwba.com/api.php/provide/vod',
-        name: '华为吧资源',
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
@@ -77,10 +74,6 @@ const API_SITES = {
     dbzy: {
         api: 'https://dbzy.tv/api.php/provide/vod',
         name: '豆瓣资源',
-    },
-    mozhua: {
-        api: 'https://mozhuazy.com/api.php/provide/vod',
-        name: '魔爪资源',
     },
     mdzy: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
@@ -111,8 +104,14 @@ const API_SITES = {
         name: 'iKun资源'
     },
     lzi: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
         name: '量子资源站'
+    },
+    91md: {
+        api: 'https://91md.me/api.php/provide/vod',
+        name: '🔞麻豆视频',
+        detail: 'https://91md.me',
+        adult: true
     },
     fhapi9: {
         api: 'http://fhapi9.com/api.php/provide/vod',
