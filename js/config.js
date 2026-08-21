@@ -22,6 +22,14 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    1080zyk4: {
+        api: 'https://api.yzzy-api.com/inc/apijson.php',',
+        name: '🎬优质资源',
+    },
+    xgzy: {
+        api: 'https://caiji.xgzyapi.com/api.php/provide/vod',
+        name: '🎬西瓜资源',
+    },
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
