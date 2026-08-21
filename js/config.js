@@ -22,6 +22,16 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    1080zyk4: {
+        api: 'https://api.yzzy-api.com/inc/apijson.php',
+        name: '🎬优质资源',
+        detail: 'https://1080zyk4.com', 
+    },
+    xgzy: {
+        api: 'https://caiji.xgzyapi.com/api.php/provide/vod',
+        name: '🎬西瓜资源',
+        detail: 'https://xgzy.tv', 
+    },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
