@@ -22,6 +22,28 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    1080zyk4: {
+        name: '🎬优质资源',
+        api: 'https://api.yzzy-api.com/inc/apijson.php',
+        detail: 'https://1080zyk4.com/'
+    },
+    xgzy: {
+        name: '🎬西瓜资源', 
+        api: 'https://caiji.xgzyapi.com/api.php/provide/vod',
+        detail: 'https://xgzy.tv/'
+    },
+    91md: {
+        name: '🔞麻豆视频', 
+        api: 'https://91md.me/api.php/provide/vod',
+        detail: 'https://91md.me',
+        adult: true
+    },
+    fhapi9: {
+        name: '🔞番号资源', 
+        api: 'http://fhapi9.com/api.php/provide/vod',
+        detail: 'http://fhapi9.com',
+        adult: true
+    },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
